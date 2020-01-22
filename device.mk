@@ -28,8 +28,7 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
 # Boot control HAL
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
-    android.hardware.boot@1.0-service \
-    bootctrl.trinket
+    android.hardware.boot@1.0-service
 
 PRODUCT_PACKAGES += \
     update_engine_sideload
